@@ -39,6 +39,7 @@ export default {
                 padding: 20px 10px;
                 text-decoration: none;
                 color: #000;
+                font-weight: bold;
                 &.active {
                     color: var(--primary-color);
                 }

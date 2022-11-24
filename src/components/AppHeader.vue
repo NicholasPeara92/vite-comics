@@ -24,4 +24,18 @@ export default {
   </header>
 </template>
 
-<style lang="scss" scoped></style>
+<style lang="scss" scoped>
+header {
+  height: 7.5rem;
+  .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 10px;
+    
+    img {
+      max-width: 5rem;
+    }
+  }
+}
+</style>
