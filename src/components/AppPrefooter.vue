@@ -57,10 +57,11 @@ section {
     display: flex;
     list-style: none;
     justify-content: space-between;
+    margin: 0 20px;
     li {
       display: flex;
       align-items: center;
-      margin: 0 20px;
+      margin: 0 10px;
       img {
         height: 3.4375rem;
   
