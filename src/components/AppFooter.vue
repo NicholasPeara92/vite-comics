@@ -1,17 +1,17 @@
 <script>
 export default {
+  name: 'AppFooter',
   data() {
     return {
-      title: 'Il titolo della pagina'
+      
     }
   }
 }
 </script>
 
 <template>
-  <h1>{{ title }}</h1>
+  <h1>Footer</h1>
 </template>
 
 <style scoped></style>
-
 
