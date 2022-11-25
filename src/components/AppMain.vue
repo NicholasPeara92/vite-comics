@@ -103,7 +103,9 @@ export default {
 
 <template>
   <main>
-    <section class="hero"></section>
+    <section class="hero">
+      <div class="current-series">CURRENT SERIES</div>
+    </section>
     <div class="container">
       <AppCards
         class="comic"
@@ -129,6 +131,16 @@ main {
   background-repeat: no-repeat;
   background-size: cover;
   height: 25rem;
+  position: relative;
+}
+.current-series {
+  position: absolute;
+  bottom: -25px;
+  left: 18.75rem;
+  background-color: var(--primary-color);
+  padding: 0.625rem 1.875rem;
+  font-weight: bold;
+  font-size: 1.5rem;
 }
 .container {
   display: flex;
