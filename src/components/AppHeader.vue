@@ -1,25 +1,22 @@
 <script>
-import HeaderNav from './HeaderNav.vue';
-
+import HeaderNav from "./HeaderNav.vue";
 
 export default {
-  name: 'AppHeader',
+  name: "AppHeader",
   components: {
-    HeaderNav
+    HeaderNav,
   },
   data() {
-    return {
-      
-    }
-  }
-}
+    return {};
+  },
+};
 </script>
 
 <template>
   <header>
     <div class="container">
-      <img src="../assets/dc-logo.png" alt="dc-logo">
-      <HeaderNav/>
+      <img src="../assets/dc-logo.png" alt="dc-logo" />
+      <HeaderNav />
     </div>
   </header>
 </template>
@@ -32,7 +29,7 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 20px 10px;
-    
+
     img {
       max-width: 5rem;
     }
